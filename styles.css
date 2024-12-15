@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.container{
+    background-color: white;
+    border:2px solid grey;
+    width:360px;
+    padding:20px;
+    margin-top: 30px;
+}
+.heading{
+    color:#fd688d;
+    text-align: center;
+}
+.top-section{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    margin-bottom:10px;
+}
+.unit{
+    box-sizing: border-box;
+    cursor:pointer;
+    
+}
+.unit-label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+.standard-price{
+    font-size:  13px;
+    font-weight: lighter; 
+    margin-left: 25px;      
+}
+.price-section{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+.price{
+    font-size:14px;
+    font-weight: bold;
+
+}
+.old-price{
+    font-size:13px;
+    color:grey;
+    text-decoration: line-through;
+    margin-top:4px;
+    margin-right: auto;
+}   
+.unit:hover{
+    border:4px solid #fd688d ;
+}
+.discount{
+    background-color:#fd688d;
+    color:White;
+    display: inline;
+
+}
+.dropdowns{
+    display:none; 
+    
+}
+/* hover effect of Unit */
+.unit:hover .dropdowns{
+    display:inline-block;
+}
+.dropdown{
+    font-size:14px;
+    font-weight:lighter;
+
+}
+.dropdown th{
+    font-weight:lighter;
+}
+
+input[type="radio"]{
+    accent-color:#fd688d ;
+   
+}
+.most-popular{
+    font-size:13px;
+    color:white;
+    background-color: #fd688d;
+    display: block;
+    margin-right:-20px;
+    margin-left:230px;
+    margin-top:-20px;
+    text-align: center;
+}
+button{
+    background-color: #fd688d;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    width:360px;
+    margin-top: 20px;
+    height:30px;
+    cursor:pointer;    
+}
+/* Hover effect of button */
+button:hover{
+    background-color: #e9305e;
+}
+.footer{
+   display:inline-flex;
+   margin-top:5px;
+   font-weight: bold;
+
+}
+.total{
+    margin-left:130px;
+}
+.freedelivery{
+    color: #ff7b9c;
+    font-size: 15px;
+}
